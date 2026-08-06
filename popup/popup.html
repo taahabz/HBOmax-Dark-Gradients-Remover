@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HBOmax Dark Gradients Remover</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header class="header">
+      <div class="logo-wrapper">
+        <img src="../icons/icon-128.png" alt="Extension Logo" class="logo" />
+      </div>
+      <div class="title-wrapper">
+        <h1>HBOmax Dark Gradients Remover</h1>
+        <p class="subtitle">Pure, overlay-free cinema playback</p>
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="control-row">
+        <div class="info-column">
+          <span class="label">Remove Player Gradients</span>
+          <div class="status-wrapper">
+            <span class="status-dot"></span>
+            <span id="status-text" class="status-text">Active</span>
+          </div>
+        </div>
+        <label class="switch-container">
+          <input type="checkbox" id="toggle-remover">
+          <span class="switch-slider"></span>
+        </label>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span>Version 1.0.0</span>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
